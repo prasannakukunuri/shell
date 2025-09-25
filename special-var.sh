@@ -5,4 +5,4 @@ echo "where am I: $PWD"
 echo "script name: $0"
 echo "PID of this script: $$"
 echo "who is running: $USER"
-echo "running home: $HOME
+echo "running home: $HOME"

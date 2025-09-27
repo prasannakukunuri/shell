@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NUMBER=50
+NUMBER=100
 
 if [ $NUMBER -gt 50 ]; then
     echo "positive"

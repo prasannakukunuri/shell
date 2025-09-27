@@ -11,3 +11,4 @@ elif [$number -lt 0]
 else [$number -eq 0]
  then
     echo " Entered number is equal to $number"
+fi

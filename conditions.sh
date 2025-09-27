@@ -1,11 +1,11 @@
 #!/bin/bash
 
-number=$1
+NUMBER=$1
 
-if [ $number -gt 0]; then
-    echo "Entered number is greater than $number"
-elif [ $number -lt 0]; then
-    echo "Entered number is less than $number"
-else [ $number -eq 0]; then
-    echo " Entered number is equal to $number"
+if [ $NUMBER -lt 10]; then
+    echo "Given number $NUMBER is less than 10"
+elif [ $NUMBER -eq 10]; then
+    echo "Given number $NUMBER is equal to  10"
+else 
+    echo " Given number $NUMBER is less than  10"
 fi
